@@ -66,8 +66,9 @@ Antes de rodar a aplicação, certifique-se de ter instalado Python 3.12
 5. Crie um arquivo .bat :
     ```bash
     @ECHO OFF
-    cd C:/DIRETORIO/RAIZ/DO/PROJETO/.../
-    C:/DIRETORIO/DO/AMBIENTE/.../python.exe src/__init__.py
+    cd c:/Users/.../repos/plp
+    call C:/Users/.../AppData/Local/anaconda3/Scripts/activate.bat [NOME VENV]
+    python src/__init__.py
     ```
 
 6. Agende uma tarefa no Task Scheduler do Windows para execução do arquivo .bat diariamente às 00:15.
